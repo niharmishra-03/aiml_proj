@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+./crop_advisory_system/venv/
+env/
+
+# Environment variables and secrets
+.env
+*.env
+./crop_advisory_system/config.py
+
+# Model & dataset files
+*.pkl
+*.h5
+*.joblib
+./crop_advisory_system/data/*.csv
+./crop_advisory_system/models/*.csv
+./crop_advisory_system/models/*.pkl
+
+# Logs and history
+*.log
+*.sqlite3
+*.db
+.DS_Store
+.history
+*.bak
+
+# Flask instance folder (if used)
+instance/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Power BI exports (optional)
+*.pbix
